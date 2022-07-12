@@ -35,14 +35,14 @@ $$D=\frac{|A x+B y+C|}{\sqrt{A^{2}+B^{2}}}$$
 $$D=\frac{\left|w^{T} x+b\right|}{\|w\|_2}$$ 
 我们因此得到分段函数：
 $$
-\left\{\begin{array}{l}
+\left\lbrace\begin{array}{l}
 \frac{w^{T} x+b}{\|w\|} \geq d \quad y=1 \\\\
 \frac{w^{T} x+b}{\|w\|} \leq-d \quad y=-1
 \end{array}\right.
 $$ {1}
 移项得：
 $$
-\left\{\begin{array}{l}
+\left\lbrace\begin{array}{l}
 \frac{w^{T} x+b}{\|w\| d} \geq 1 \quad y=1 \\\\
 \frac{w^{T} x+b}{\|w\| d} \leq-1 \quad y=-1
 \end{array}\right.
