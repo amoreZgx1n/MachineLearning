@@ -7,7 +7,7 @@ SVM三宝：间隔对偶核技巧
 
 ### 硬间隔分类
 
-硬间隔分类是
+*关于行间公式：正常在github预览md文件行间公式无法正常显示，需要到chrome网上商店下载MathJax Plugin for Github；另外考虑到markdown和mathjax的差异，行间含大括号的公式在mathjax显示中需要四个\才能换行，而markdown需要2个即可，所以使用typora或者vscode查看时会多一行，但是不影响正常查看*
 
 #### 线性可分
 
@@ -36,20 +36,20 @@ $$D=\frac{\left|w^{T} x+b\right|}{\|w\|_2}$$
 我们因此得到分段函数：
 $$
 \left\{\begin{array}{l}
-\frac{w^{T} x+b}{\|w\|} \geq d \quad y=1 \\
+\frac{w^{T} x+b}{\|w\|} \geq d \quad y=1 \\\\
 \frac{w^{T} x+b}{\|w\|} \leq-d \quad y=-1
 \end{array}\right.
 $$ {1}
 移项得：
 $$
 \left\{\begin{array}{l}
-\frac{w^{T} x+b}{\|w\| d} \geq 1 \quad y=1 \\
+\frac{w^{T} x+b}{\|w\| d} \geq 1 \quad y=1 \\\\
 \frac{w^{T} x+b}{\|w\| d} \leq-1 \quad y=-1
 \end{array}\right.
 $$
 因为 $\|w\| d$ 是正数，所以我们令它等于1，相当于将间隔放缩，不会影响到结果，并且可以简化运算:
 $$
-\left\{\begin{array}{l}
+\left\lbrace\begin{array}{l}
 w^{T} x+b \geq 1 \quad y=1 \\
 w^{T} x+b \leq-1 \quad y=-1
 \end{array}\right.
