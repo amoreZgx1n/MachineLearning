@@ -19,7 +19,7 @@ $wx_i+b=0$就形成了一个超平面
 #### 最大间隔超平面
 如下图，一个二维平面上有一群点，我们要一条线将其分为两部分，显然有无数条线符合条件，我们要选取其中的最大间隔的直线 ，在这里是$H_3$
 
-<img src="https://amore.oss-cn-hangzhou.aliyuncs.com/img/svm1.png#x" style="zoom: 33%;" />
+<img src="https://amore.oss-cn-hangzhou.aliyuncs.com/img/svm1.png#x" style="zoom: 3%;" />
 
 推广到多维空间也一样，只不过找的是一个最优超平面：
 
