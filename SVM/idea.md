@@ -36,7 +36,7 @@ $$D=\frac{\left|w^{T} x+b\right|}{\|w\|_2}$$
 我们因此得到分段函数：
 $$
 \left \lbrace \begin{array}{l}
-\frac{w^{T} x+b}{\|w\|} \geq d \quad y=1 \\
+\frac{w^{T} x+b}{\|w\|} \geq d \quad y=1 \\\\
 \frac{w^{T} x+b}{\|w\|} \leq-d \quad y=-1
 \end{array}\right.
 $$ {1}
