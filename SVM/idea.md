@@ -35,24 +35,24 @@ $$D=\frac{|A x+B y+C|}{\sqrt{A^{2}+B^{2}}}$$
 $$D=\frac{\left|w^{T} x+b\right|}{\|w\|_2}$$ 
 我们因此得到分段函数：
 $$
-\left\{\begin{array}{l}
+\{\begin{array}{l}
 \frac{w^{T} x+b}{\|w\|} \geq d \quad y=1 \\
 \frac{w^{T} x+b}{\|w\|} \leq-d \quad y=-1
-\end{array}\right.
+\end{array}.
 $$ {1}
 移项得：
 $$
-\left\{\begin{array}{l}
+\{\begin{array}{l}
 \frac{w^{T} x+b}{\|w\| d} \geq 1 \quad y=1 \\
 \frac{w^{T} x+b}{\|w\| d} \leq-1 \quad y=-1
-\end{array}\right.
+\end{array}.
 $$
 因为 $\|w\| d$ 是正数，所以我们令它等于1，相当于将间隔放缩，不会影响到结果，并且可以简化运算:
 $$
-\left\{\begin{array}{l}
+\{\begin{array}{l}
 w^{T} x+b \geq 1 \quad y=1 \\
 w^{T} x+b \leq-1 \quad y=-1
-\end{array}\right.
+\end{array}.
 $$
 等价于
 $$
