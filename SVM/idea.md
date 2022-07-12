@@ -28,29 +28,21 @@ $wx_i+b=0$就形成了一个超平面
 
 #### SVM最优化
 
-SVM是至今学习的优化算法的比较难的，因为它用到的数学知识比较多，有些还没有学过，但是这些优化方法十分常见，学会这些优化方法也是学习SVM的收获。·· 
+SVM是至今学习的优化算法的比较难的，因为它用到的数学知识比较多，有些还没有学过，但是这些优化方法十分常见，学会这些优化方法也是学习SVM的收获。
 对于二维平面中直线 $Ax+By+C=0$，点(x,y)到直线距离公式：
 $$D=\frac{|A x+B y+C|}{\sqrt{A^{2}+B^{2}}}$$
 相应地，在n维空间内，点($x_1$,$x_2$,...,$x_n$)到直线$wx_i+b=0$距离为
 $$D=\frac{\left|w^{T} x+b\right|}{\|w\|_2}$$ 
 我们因此得到分段函数：
 $$
-<<<<<<< HEAD
 \left\{\begin{array}{l}
-=======
-\left\lbrace\begin{array}{l}
->>>>>>> ea0f1a631c62a30428843ab1b161362018359621
 \frac{w^{T} x+b}{\|w\|} \geq d \quad y=1 \\\\
 \frac{w^{T} x+b}{\|w\|} \leq-d \quad y=-1
 \end{array}\right.
 $$ {1}
 移项得：
 $$
-<<<<<<< HEAD
 \left\{\begin{array}{l}
-=======
-\left\lbrace\begin{array}{l}
->>>>>>> ea0f1a631c62a30428843ab1b161362018359621
 \frac{w^{T} x+b}{\|w\| d} \geq 1 \quad y=1 \\\\
 \frac{w^{T} x+b}{\|w\| d} \leq-1 \quad y=-1
 \end{array}\right.
@@ -58,11 +50,7 @@ $$
 因为 $\|w\| d$ 是正数，所以我们令它等于1，相当于将间隔放缩，不会影响到结果，并且可以简化运算:
 $$
 \left\lbrace\begin{array}{l}
-<<<<<<< HEAD
 w^{T} x+b \geq 1 \quad y=1 \\
-=======
-w^{T} x+b \geq 1 \quad y=1 \\\\
->>>>>>> ea0f1a631c62a30428843ab1b161362018359621
 w^{T} x+b \leq-1 \quad y=-1
 \end{array}\right.
 $$
