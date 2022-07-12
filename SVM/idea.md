@@ -42,15 +42,15 @@ $$
 $$ {1}
 移项得：
 $$
-\left\{\begin{array}{l}
-\frac{w^{T} x+b}{\|w\| d} \geq 1 \quad y=1 \\
+\left\lbrace\begin{array}{l}
+\frac{w^{T} x+b}{\|w\| d} \geq 1 \quad y=1 \\\\
 \frac{w^{T} x+b}{\|w\| d} \leq-1 \quad y=-1
 \end{array}\right.
 $$
 因为 $\|w\| d$ 是正数，所以我们令它等于1，相当于将间隔放缩，不会影响到结果，并且可以简化运算:
 $$
-\left\{\begin{array}{l}
-w^{T} x+b \geq 1 \quad y=1 \\
+\left\lbrace\begin{array}{l}
+w^{T} x+b \geq 1 \quad y=1 \\\\
 w^{T} x+b \leq-1 \quad y=-1
 \end{array}\right.
 $$
