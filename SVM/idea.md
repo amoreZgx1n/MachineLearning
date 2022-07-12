@@ -38,8 +38,8 @@ $$
 \left\{\begin{array}{l}
 \frac{w^{T} x+b}{\|w\|} \geq d \quad y=1 \\
 \frac{w^{T} x+b}{\|w\|} \leq-d \quad y=-1
-\end{array}\right. 
-$$
+\end{array}\right.
+$$ {1}
 移项得：
 $$
 \left\{\begin{array}{l}
