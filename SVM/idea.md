@@ -7,7 +7,7 @@ SVM三宝：间隔对偶核技巧
 
 ### 硬间隔分类
 
-**关于行间公式：正常在github预览md文件行间公式无法正常显示，需要到chrome网上商店下载MathJax Plugin for Github；另外考虑到markdown和mathjax的差异，行间含大括号的公式在mathjax显示中需要四个\才能换行，而markdown需要2个即可，所以使用typora或者vscode查看时会多一行，但是不影响正常预览。但是github预览需要\额外转义的问题有时会造成错误，比如将范式||x||误显示为|x|，所以建议下载使用vscode或者typora查看**
+
 
 #### 线性可分
 
