@@ -61,3 +61,5 @@ $$
 需要注意这个式子的意义是正确分类的条件，我们因此也得到了超平面，如下图（图片来源：Bing图片）：
 
 <img src="https://amore.oss-cn-hangzhou.aliyuncs.com/img/SVM2.png" style="zoom: 50%;" />
+
+对于间隔分类我的简单理解：对于
